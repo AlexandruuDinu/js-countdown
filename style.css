@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@200;300&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./images/timesquare.jpg);
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  font-family: "Kanit", sans-serif;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #fff;
+}
+
+.countdown-cointainer {
+  display: flex;
+}
+
+.title-text {
+  font-size: 6rem;
+  line-height: 0.5;
+  margin: 0 3.5rem;
+  color: #fff;
+}
+
+.countdown-element {
+  text-align: center;
+}
+
+.countdown-element span {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #fff;
+}
